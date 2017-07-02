@@ -18,7 +18,8 @@
               <h4 class="media-heading">{{ $contact->name }}</h4>
               <address>
                 <strong>{{ $contact->company }}</strong><br>
-                {{ $contact->email }}
+                {{ $contact->email }}<br>
+                 {{ $contact->phone }}
               </address>
             </div>
           </div>
